@@ -386,7 +386,7 @@ header #nav .nav__btnMenu span {
     -ms-flex-align: center;
     align-items: center;
     height: 100vh;
-    background-image: url("/img/circle-blues.png");
+    background-image: url("../img/circle-blues.png");
     -webkit-animation: animandoFondo 10s linear infinite;
     animation: animandoFondo 10s linear infinite;
 }

@@ -79,8 +79,9 @@ header #nav .nav__btnMenu span {
 }
 
 .moverHeader {
-    background: #ECF0F1;
+    background: rgb(43, 49, 51);
     color: #C0392B;
+    color: #fff;
     height: 60px;
     -webkit-box-shadow: 2px 0 5px #000;
     box-shadow: 2px 0 5px #000;
@@ -149,8 +150,8 @@ header #nav .nav__btnMenu span {
     margin-bottom: 0;
     padding-bottom: 0;
     width: 100%;
-    height: 200px;
-    background: #CEE5D0;
+    height: 20vh;
+    background: #CDEAE8;
     -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 }
@@ -166,11 +167,13 @@ header #nav .nav__btnMenu span {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    background: #CDEAE8;
+    padding-bottom: 2em;
 }
 
 #lugar .lugar__modal {
     height: 50vh;
-    width: 50%;
+    width: 47%;
     cursor: pointer;
     background-color: rgba(35, 190, 48, 0.5);
     background-size: cover;
@@ -178,6 +181,8 @@ header #nav .nav__btnMenu span {
     background-position: center;
     background-blend-mode: luminosity;
     position: relative;
+    margin-top: 1.5em;
+    box-shadow: 0px 3px 5px #000;
 }
 
 #lugar .lugar__modal p {
